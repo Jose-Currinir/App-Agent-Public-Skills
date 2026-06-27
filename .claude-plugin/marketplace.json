@@ -1,0 +1,17 @@
+{
+  "name": "app-agent-public-skills",
+  "owner": {
+    "name": "Butake",
+    "email": "jpcurrinir@gmail.com"
+  },
+  "metadata": {
+    "description": "Marketplace público de skills reutilizables Butake (Claude Code)."
+  },
+  "plugins": [
+    {
+      "name": "butake-public-skills",
+      "source": ".",
+      "description": "Skills genéricas reutilizables: caveman, compress, find-skills, github-readme-polisher, ui-animation."
+    }
+  ]
+}

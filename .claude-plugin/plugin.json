@@ -1,0 +1,11 @@
+{
+  "name": "butake-public-skills",
+  "description": "Skills genéricas reutilizables del ecosistema Butake.",
+  "version": "0.1.0",
+  "author": { "name": "Butake", "email": "jpcurrinir@gmail.com" },
+  "repository": "https://github.com/Jose-Currinir/App-Agent-Public-Skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "keywords": ["butake", "skills", "reutilizable"],
+  "defaultEnabled": true
+}
