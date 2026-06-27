@@ -1,0 +1,17 @@
+{
+  "generatedBy": "Jose-Currinir/App-Control-GitHub",
+  "ecosystem": "Butake",
+  "repo": "App-Agent-Public-Skills",
+  "purpose": "agente/automatizacion/AI",
+  "family": "ai-agent",
+  "category": "agent",
+  "visibility": "PUBLIC",
+  "usesBukyBrand": true,
+  "brandScope": "product",
+  "controlPlane": "Jose-Currinir/App-Control-GitHub",
+  "brandSource": "Jose-Currinir/App-Brand-Buki",
+  "skills": [
+    "github-control-plane",
+    "brandkit (App-Brand-Buki)"
+  ]
+}
