@@ -87,4 +87,5 @@ echo
 echo "Publicadas $count skills."
 [[ $ONLY_DIST -eq 0 ]] && echo "Instaladas en: ${GLOBAL_ROOTS[*]}"
 echo "Artefactos en: $DIST (cursor/, copilot/, chatgpt/, agents/)"
-echo "Claude Code (marketplace): /plugin marketplace add Jose-Currinir/App-Agent-Skills"
+REPO_SLUG="$(git -C "$ROOT" remote get-url origin 2>/dev/null | sed -E 's#(\.git)?$##; s#.*[:/]([^/]+/[^/]+)$#\1#')"
+[[ -n "$REPO_SLUG" ]] && echo "Claude Code (marketplace): /plugin marketplace add $REPO_SLUG"
