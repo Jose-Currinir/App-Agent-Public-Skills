@@ -5,7 +5,7 @@
 ## Este repo
 
 - Nombre: `App-Agent-Public-Skills`
-- Propósito: agente/automatizacion/AI
+- Propósito: repo publico de skills publicables y sanitizadas
 - Categoría: `agent` · Familia: `ai-agent` · Visibilidad: `PUBLIC`
 - Pertenece al ecosistema **Butake**, gobernado por el control plane `Jose-Currinir/App-Control-GitHub`.
 
