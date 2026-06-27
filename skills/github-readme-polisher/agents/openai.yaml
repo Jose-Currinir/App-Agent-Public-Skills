@@ -1,0 +1,8 @@
+interface:
+  display_name: "GitHub README Polisher"
+  short_description: "Premium GitHub README polish."
+  brand_color: "#19D79F"
+  default_prompt: "Use $github-readme-polisher to create or improve this repository README with premium GitHub presentation, brand assets, accurate setup docs, and Spanish copy QA."
+
+policy:
+  allow_implicit_invocation: true
